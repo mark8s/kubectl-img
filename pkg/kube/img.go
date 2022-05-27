@@ -6,14 +6,7 @@ import (
 	"github.com/liushuochen/gotable/table"
 )
 
-type Img struct {
-	name         string `json:"name"`
-	resourceType string `json:"type"`
-	namespace    string `json:"namespace"`
-	image        string `json:"image"`
-}
-
-var title []string = []string{
+var title = []string{
 	"NAMESPACE",
 	"TYPE",
 	"NAME",
