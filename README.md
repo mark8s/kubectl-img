@@ -4,6 +4,8 @@ kubectl-img is a kubectl plugin that allows you to show kubernetes resource imag
 ## Install
 Linux
 ```shell
+export release=1.0.0
+curl -L -o kubectl-img.tar.gz https://github.com/mark8s/kubectl-img/releases/download/${release}/kubectl-img_${release}.tar.gz
 tar -xvf kubectl-img.tar.gz
 cp kubectl-img /usr/local/bin/kubectl-img
 ```
